@@ -172,6 +172,15 @@ SECTION WRAPS
 #headerwrap h1 {
   font-size: 80px;
   color: white;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 640px) {
+  #headerwrap h1 {
+    font-size: 50px;
+    color: white;
+    padding-top: 150px;
+  }
 }
 
 #headerwrap h3 {
@@ -383,3 +392,4 @@ sm {
   font-weight: 600;
   margin: 15px 0;
 }
+
